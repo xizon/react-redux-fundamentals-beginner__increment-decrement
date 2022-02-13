@@ -1,6 +1,6 @@
 
 // Reducer
-// 计数器加减
+// Counter reaction
 //---------
 let initialState = {count: 0}
 export default function countReducer(state = initialState, action) {

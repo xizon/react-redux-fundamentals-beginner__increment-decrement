@@ -3,12 +3,12 @@ import { useSelector, useDispatch } from 'react-redux';
 
 const App = () => {
 
-	//Receive redux (useSelector钩子在概念上大致相当于 mapStateToProps 参数来连接)
+	//Receive redux (The `useSelector` hook is equivalent to the `mapStateToProps` to connect)
 	const renderCounter = useSelector((state) => {
 		return state.count
 	}); 
 
-	 // useDispatch钩子从 Redux 存储中返回对 dispatch 函数的引用
+	 // The `useDispatch` hook returns a reference to the `dispatch` from the Redux store
 	const dispatch = useDispatch(); 
 
 
